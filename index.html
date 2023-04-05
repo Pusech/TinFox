@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinFox</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/17dee8426d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tinfox</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbartoggle"
+            aria-controls="navbartoggle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbartoggle">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="rewrite">Meet new and interesting foxes nearby.</h1>
+            <button type="button" class="btn btn-dark downloadbtn">
+              <i class="fa-brands fa-apple" style="color: #ffffff"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-light downloadbtn">
+              <i class="fa-brands fa-google-play" style="color: #ffffff"></i>
+              Download
+            </button>
+          </div>
+          <div class="col-lg-6 phone-container">
+            <img
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+              class="phoneimage"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="features-container">
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fa-solid fa-circle-check featureicons hover-effect"></i>
+            <h3>Easy to use.</h3>
+            <p class="featuretext">
+              So easy to use, even your fox could do it.
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <i class="fa-solid fa-bullseye featureicons hover-effect"></i>
+            <h3>Elite Clientele</h3>
+            <p class="featuretext">
+              We have all the foxes, the greatest foxes.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fa-solid fa-heart featureicons hover-effect"></i>
+
+            <h3>Guaranteed to work.</h3>
+            <p class="featuretext">
+              Find the love of your fox's life or your money back.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to sniff other foxes for love. I've found the
+              hottest tibetian on TinFox.
+            </h2>
+            <img
+              src="images/fox-img.jpg"
+              alt="fox-profile"
+              class="testimonialimg"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              My fox used to be lonely, but with TinFox's help, they've found
+              the love of their life.
+            </h2>
+            <img
+              class="testimonialimg"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-image" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-image" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-image"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-image" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>A Plan for Every fox's Needs</h2>
+      <p>Simple and affordable price plans for your and your fox.</p>
+      <div class="row">
+        <div class="card-group">
+          <div class="cardcolumn col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <h3>Fennec</h3>
+              </div>
+              <div class="card-body">
+                <h2>Free</h2>
+                <p>Regular Listing</p>
+                <p>5 Matches Per Day</p>
+                <p>20 Messages Per Day</p>
+                <p>Unlimited App Usage</p>
+                <a href="#" class="btn btn-outline-dark btn-lg">Sign Up</a>
+              </div>
+            </div>
+          </div>
+          <div class="cardcolumn col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <h3>Bengal</h3>
+              </div>
+              <div class="card-body">
+                <h2>$49 / mo</h2>
+                <p>Regular Listing</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <a href="#" class="btn btn-dark btn-lg">Sign Up</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardcolumn col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <h3>Arctic</h3>
+              </div>
+              <div class="card-body">
+                <h2>$99 / mo</h2>
+                <p>Priority Listing</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <a href="#" class="btn btn-dark btn-lg">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="cta-container">
+        <h3 class="ctatext">Find the True Love of Your Fox's Life Today.</h3>
+        <button type="button" class="btn btn-lg btn-dark downloadbtn">
+          <i class="fa-brands fa-apple" style="color: #ffffff"></i> Download
+        </button>
+        <button type="button" class="btn btn-lg btn-light downloadbtn">
+          <i class="fa-brands fa-google-play" style="color: #000000"></i>
+          Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="socials fa-brands fa-twitter" style="color: #000000"></i>
+      <i class="socials fa-brands fa-instagram" style="color: #000000"></i>
+      <i class="socials fa-brands fa-facebook" style="color: #000000"></i>
+      <i class="socials fa-solid fa-envelope" style="color: #000000"></i>
+
+      <p class="copyright">© Copyright 2023 TinFox</p>
+    </footer>
+  </body>
+</html>
